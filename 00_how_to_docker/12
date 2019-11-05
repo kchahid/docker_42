@@ -1,0 +1,1 @@
+docker run -d --restart=on-failure --name=spawning-pool -v hatchery -e MYSQL_ROOT_PASSWORD=Kerrigan -e MYSQL_DATABASSE=zerglings mysql:5.7
